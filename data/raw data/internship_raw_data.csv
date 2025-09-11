@@ -1,0 +1,1001 @@
+intern_id,name,department,enrollment_date,duration_weeks,mentor_interaction,completion_status,dropout_reason
+1,Robert,Data Science,2025-05-06,16,Low,Completed,
+2,Brittany,Marketing,2025-04-06,8,High,Completed,
+3,Amanda,Operations,2025-04-15,12,Medium,Completed,
+4,Kristen,Finance,2024-09-12,12,Low,Dropped,Health
+5,Sheryl,Marketing,2024-09-10,12,High,Completed,
+6,Travis,IT,2025-03-04,16,High,Completed,
+7,Christian,Operations,2025-06-20,4,High,Completed,
+8,Keith,HR,2025-05-06,16,High,Completed,
+9,Amy,HR,2024-09-23,16,High,Completed,
+10,Kerry,Marketing,2025-08-26,12,High,Completed,
+11,Jessica,Finance,2024-10-19,4,High,Completed,
+12,Adam,Data Science,2025-06-24,8,Medium,Dropped,Other
+13,Antonio,Finance,2025-05-18,4,High,Dropped,Health
+14,Amber,Data Science,2025-02-02,8,Low,Completed,
+15,Laura,Data Science,2025-08-21,8,Low,Completed,
+16,Michelle,Data Science,2025-06-13,8,Low,Dropped,Other
+17,Alexander,Marketing,2025-04-20,4,High,Dropped,Health
+18,Elizabeth,Marketing,2025-05-07,4,Medium,Completed,
+19,Sheila,Data Science,2025-06-02,8,Low,Dropped,Personal
+20,Rebecca,Data Science,2025-08-23,8,Low,Completed,
+21,Rachel,IT,2024-12-23,4,High,Completed,
+22,Jordan,Operations,2025-05-12,12,Low,Completed,
+23,Tanner,IT,2025-08-06,16,High,Dropped,Health
+24,Yesenia,Finance,2025-03-22,4,High,Completed,
+25,Micheal,Operations,2025-08-26,16,High,Completed,
+26,Brent,Operations,2025-03-23,8,High,Completed,
+27,Debra,Finance,2025-04-04,4,Medium,Completed,
+28,Jennifer,HR,2025-08-21,8,High,Completed,
+29,Justin,Data Science,2024-10-03,16,Low,Completed,
+30,John,HR,2024-11-10,8,Medium,Completed,
+31,Leonard,IT,2024-10-20,8,Medium,Dropped,Personal
+32,Michael,Finance,2025-02-17,16,Low,Completed,
+33,Brittany,Marketing,2024-10-11,4,Low,Completed,
+34,Patricia,Finance,2025-08-25,16,Low,Completed,
+35,Anne,Operations,2025-05-18,8,Medium,Completed,
+36,Ronald,Data Science,2025-02-22,16,High,Completed,
+37,Christine,Operations,2025-09-05,16,Medium,Dropped,Workload
+38,Brian,Marketing,2025-06-15,4,High,Completed,
+39,Robert,Operations,2024-10-14,16,High,Completed,
+40,Natalie,IT,2025-01-24,4,Medium,Completed,
+41,Sarah,HR,2025-01-05,8,High,Dropped,Personal
+42,Janet,Operations,2024-12-30,4,Medium,Completed,
+43,Anthony,Marketing,2024-09-12,12,High,Completed,
+44,Jared,IT,2024-11-06,12,High,Completed,
+45,Pamela,IT,2025-08-30,12,Medium,Completed,
+46,Susan,Operations,2024-12-21,4,Medium,Completed,
+47,Brittany,Marketing,2025-03-06,4,High,Completed,
+48,Frederick,Data Science,2025-07-29,16,High,Dropped,Other
+49,Courtney,IT,2024-10-15,8,Medium,Completed,
+50,Rachel,HR,2025-03-17,16,High,Completed,
+51,Jonathan,HR,2024-10-16,16,Medium,Completed,
+52,Maria,Operations,2025-06-17,8,High,Completed,
+53,Christopher,HR,2025-03-27,12,High,Completed,
+54,Chad,IT,2025-07-17,12,High,Dropped,Workload
+55,Lisa,Marketing,2025-08-12,4,High,Completed,
+56,Daisy,Data Science,2025-07-14,16,Low,Dropped,Other
+57,Ruben,Marketing,2024-12-18,12,High,Completed,
+58,James,Operations,2024-11-10,12,Low,Completed,
+59,Kelly,Operations,2024-10-07,4,Low,Completed,
+60,Pamela,HR,2025-08-18,16,High,Completed,
+61,Jennifer,Data Science,2025-02-15,16,Medium,Dropped,Personal
+62,William,Data Science,2025-02-09,16,Medium,Completed,
+63,Tanner,Operations,2025-02-01,4,High,Dropped,Other
+64,Travis,Operations,2025-06-23,4,High,Completed,
+65,Michael,Marketing,2024-10-14,4,High,Dropped,Health
+66,Jessica,Finance,2025-01-17,12,Medium,Dropped,Personal
+67,Brooke,Marketing,2025-01-01,16,High,Completed,
+68,Kimberly,IT,2025-05-06,4,Medium,Completed,
+69,Brooke,Operations,2024-11-11,4,High,Completed,
+70,Todd,HR,2025-08-29,8,Medium,Completed,
+71,Amanda,Finance,2025-06-06,12,High,Completed,
+72,Sheri,Operations,2025-01-25,8,High,Completed,
+73,Ian,Finance,2025-05-11,16,Medium,Completed,
+74,Bruce,HR,2025-07-27,12,High,Completed,
+75,Debra,Operations,2025-05-10,8,High,Completed,
+76,Cynthia,HR,2025-08-05,8,High,Completed,
+77,Christopher,Data Science,2025-07-24,4,High,Completed,
+78,Darlene,HR,2025-05-15,4,High,Completed,
+79,John,Operations,2024-11-09,12,Low,Dropped,Health
+80,Amanda,Marketing,2025-01-19,16,High,Completed,
+81,Pamela,Operations,2025-05-03,16,High,Dropped,Personal
+82,Aaron,Operations,2024-12-20,4,Medium,Completed,
+83,Adam,IT,2025-07-25,16,High,Completed,
+84,Eric,Marketing,2025-08-14,12,High,Completed,
+85,Jennifer,Operations,2025-07-06,8,High,Completed,
+86,Willie,IT,2024-09-11,16,Low,Completed,
+87,Felicia,Data Science,2024-09-07,16,Medium,Completed,
+88,Richard,IT,2025-08-29,16,Medium,Dropped,Other
+89,Janice,Data Science,2024-09-15,12,Medium,Completed,
+90,Samantha,IT,2025-08-23,12,Medium,Completed,
+91,Steven,Marketing,2025-04-01,16,Low,Completed,
+92,Jasmine,Data Science,2025-06-21,4,High,Completed,
+93,Faith,Data Science,2024-09-11,16,High,Completed,
+94,Troy,HR,2025-08-30,16,Low,Dropped,Personal
+95,Tracey,IT,2025-08-08,4,Medium,Completed,
+96,Donald,IT,2025-05-15,4,Low,Completed,
+97,Michael,HR,2025-08-02,4,High,Completed,
+98,Kevin,Operations,2025-04-20,4,High,Dropped,Workload
+99,Donald,HR,2025-01-18,12,High,Completed,
+100,Edward,Data Science,2025-03-03,8,High,Completed,
+101,Clinton,Marketing,2025-07-16,12,Medium,Completed,
+102,Natasha,Finance,2024-12-10,8,Low,Completed,
+103,Melissa,Finance,2025-03-21,16,Medium,Completed,
+104,Krystal,Marketing,2025-03-24,4,Low,Completed,
+105,Rachel,Finance,2024-12-01,16,Medium,Completed,
+106,Melody,IT,2025-01-01,8,High,Dropped,Other
+107,Megan,Marketing,2025-02-03,4,High,Completed,
+108,Amanda,Marketing,2025-05-07,16,High,Completed,
+109,Christina,IT,2025-05-14,8,High,Completed,
+110,Jesus,Data Science,2025-02-16,4,High,Dropped,Other
+111,Cody,Data Science,2025-09-01,12,High,Dropped,Health
+112,Daniel,Marketing,2025-04-27,4,Low,Completed,
+113,Amy,Data Science,2024-10-12,16,High,Completed,
+114,Laura,Marketing,2024-09-18,4,High,Completed,
+115,Brandon,Operations,2024-09-16,8,High,Completed,
+116,Zachary,Operations,2025-08-18,4,Medium,Completed,
+117,David,IT,2024-11-30,8,Medium,Completed,
+118,Tracy,IT,2025-01-11,4,High,Completed,
+119,John,Finance,2025-02-28,8,Medium,Completed,
+120,Travis,HR,2024-11-11,16,Medium,Completed,
+121,Lori,IT,2025-07-11,12,Medium,Completed,
+122,Joseph,HR,2025-05-17,8,High,Completed,
+123,Laura,Marketing,2025-03-04,8,High,Dropped,Health
+124,Emily,HR,2024-12-28,16,Low,Completed,
+125,Amanda,Operations,2025-07-27,16,Medium,Completed,
+126,Tammy,Operations,2025-09-03,8,High,Dropped,Other
+127,Michelle,Marketing,2024-11-09,16,Low,Completed,
+128,Christine,HR,2025-05-12,4,High,Dropped,Personal
+129,Megan,Data Science,2024-09-29,16,High,Completed,
+130,Brandon,HR,2025-05-22,4,Low,Completed,
+131,Rebecca,Finance,2025-04-29,8,Medium,Completed,
+132,George,Finance,2024-11-06,4,Medium,Dropped,Workload
+133,Angel,IT,2024-10-15,4,Low,Completed,
+134,Nichole,HR,2025-05-16,12,High,Completed,
+135,Gary,Finance,2025-07-01,12,High,Completed,
+136,Sarah,HR,2025-04-01,16,Medium,Completed,
+137,Amanda,IT,2024-11-27,4,High,Completed,
+138,Michael,Operations,2024-12-18,16,Low,Completed,
+139,Derek,IT,2025-02-13,8,High,Completed,
+140,Renee,Finance,2025-02-16,8,High,Completed,
+141,Sarah,Operations,2025-06-30,4,Medium,Dropped,Health
+142,Bryan,Data Science,2024-10-13,4,Medium,Completed,
+143,Daniel,HR,2025-05-13,4,High,Completed,
+144,Mark,Operations,2024-11-19,4,High,Completed,
+145,Michael,Data Science,2024-12-18,8,High,Completed,
+146,Roy,HR,2025-08-12,4,Low,Dropped,Health
+147,Sydney,Data Science,2025-03-31,12,Low,Completed,
+148,Casey,Operations,2024-12-20,4,Low,Completed,
+149,Steven,Data Science,2024-11-24,12,High,Completed,
+150,Denise,Data Science,2025-01-26,8,High,Dropped,Other
+151,Jimmy,Data Science,2025-01-21,12,Medium,Completed,
+152,George,Operations,2025-02-20,4,Low,Dropped,Personal
+153,Kevin,Operations,2025-03-11,4,Low,Dropped,Workload
+154,Jessica,IT,2025-04-26,12,High,Completed,
+155,Amy,Operations,2025-05-26,12,Medium,Completed,
+156,Joshua,Operations,2025-02-23,12,High,Completed,
+157,Angel,HR,2025-04-09,4,Medium,Completed,
+158,Christopher,Finance,2024-12-13,4,Medium,Completed,
+159,Roberto,IT,2025-07-13,12,Low,Completed,
+160,Helen,Data Science,2024-12-26,16,High,Completed,
+161,Kyle,Marketing,2024-09-30,4,High,Dropped,Other
+162,Tracy,HR,2024-12-01,4,Low,Completed,
+163,Melvin,Data Science,2024-09-14,12,Medium,Completed,
+164,Claire,Data Science,2024-12-21,8,Medium,Dropped,Health
+165,Robert,Marketing,2025-02-23,12,Low,Dropped,Other
+166,Michele,Data Science,2025-08-13,4,Medium,Completed,
+167,Blake,Finance,2025-02-03,4,High,Dropped,Other
+168,Benjamin,Operations,2024-12-08,12,Medium,Completed,
+169,Douglas,IT,2024-11-21,12,Low,Completed,
+170,Kenneth,Marketing,2024-12-10,8,Medium,Completed,
+171,Mason,Data Science,2025-06-11,12,High,Completed,
+172,Brittney,Data Science,2025-03-11,16,Medium,Completed,
+173,Sandra,HR,2025-01-09,16,High,Completed,
+174,Jamie,Marketing,2025-06-29,12,High,Completed,
+175,Elizabeth,Data Science,2025-05-22,4,Medium,Completed,
+176,Wendy,HR,2025-07-28,16,High,Completed,
+177,Deborah,Marketing,2025-04-07,12,Low,Completed,
+178,Ashley,IT,2024-10-26,16,Low,Completed,
+179,Jamie,Marketing,2025-04-06,16,Medium,Dropped,Personal
+180,Samantha,Finance,2025-03-15,4,High,Completed,
+181,Amber,Data Science,2025-06-19,8,High,Completed,
+182,Elizabeth,Finance,2024-12-01,16,High,Completed,
+183,Mark,IT,2025-02-14,12,High,Completed,
+184,Anna,Operations,2024-10-16,8,High,Completed,
+185,Allison,IT,2025-01-18,12,Medium,Dropped,Health
+186,Blake,Data Science,2025-06-07,8,High,Completed,
+187,Monica,HR,2024-12-09,4,High,Completed,
+188,Richard,Data Science,2025-04-15,4,Low,Completed,
+189,Julie,Finance,2025-06-17,12,High,Completed,
+190,Brandon,Finance,2024-09-27,16,Low,Completed,
+191,Jennifer,Marketing,2025-08-16,16,High,Completed,
+192,Kelly,Data Science,2025-01-08,4,High,Completed,
+193,Patricia,Finance,2025-04-20,16,Medium,Completed,
+194,Brandon,Operations,2025-07-16,4,High,Dropped,Other
+195,Rachel,IT,2025-04-22,16,High,Completed,
+196,Victor,IT,2025-07-09,8,High,Dropped,Health
+197,Lisa,Data Science,2024-11-17,16,Medium,Completed,
+198,John,Data Science,2024-09-27,16,High,Completed,
+199,Jason,Marketing,2024-10-03,8,Medium,Completed,
+200,Hannah,HR,2025-02-07,8,High,Dropped,Health
+201,Heather,Operations,2025-01-15,16,Low,Completed,
+202,James,Operations,2025-01-30,12,Low,Completed,
+203,Ricky,Finance,2025-05-01,12,High,Dropped,Workload
+204,David,HR,2025-01-16,4,Medium,Completed,
+205,Anita,HR,2024-10-24,16,Low,Completed,
+206,Amanda,HR,2025-01-22,4,Low,Completed,
+207,Laurie,Data Science,2025-02-19,16,Low,Completed,
+208,Hunter,Finance,2025-08-29,16,Medium,Completed,
+209,John,Operations,2024-11-21,8,Low,Completed,
+210,Christopher,Finance,2025-08-29,12,High,Completed,
+211,Olivia,Operations,2025-02-01,8,High,Completed,
+212,Shannon,HR,2025-05-02,12,Medium,Dropped,Health
+213,Elizabeth,Marketing,2025-04-06,8,Low,Completed,
+214,Linda,Marketing,2025-05-09,12,Medium,Completed,
+215,William,IT,2024-12-27,8,Low,Completed,
+216,Tonya,Marketing,2024-11-21,16,High,Completed,
+217,Christopher,Finance,2025-04-04,16,High,Completed,
+218,Tiffany,HR,2025-08-18,8,Medium,Completed,
+219,Eric,Marketing,2025-03-15,8,High,Completed,
+220,Ashley,IT,2025-08-31,4,Low,Completed,
+221,Timothy,Finance,2025-01-07,12,Medium,Completed,
+222,Emily,Finance,2024-09-22,8,High,Dropped,Workload
+223,Emily,Finance,2025-04-26,12,High,Completed,
+224,Michael,IT,2025-06-06,8,High,Completed,
+225,Johnny,Operations,2025-07-06,16,Low,Completed,
+226,Kathryn,Finance,2024-12-16,16,High,Completed,
+227,Paul,IT,2025-04-20,16,High,Completed,
+228,Michael,Finance,2024-12-13,4,High,Completed,
+229,Alyssa,IT,2025-03-09,4,High,Completed,
+230,Kevin,Operations,2025-04-17,4,High,Completed,
+231,Jon,HR,2025-01-30,12,Medium,Completed,
+232,Heather,Data Science,2025-07-09,16,High,Completed,
+233,Crystal,HR,2025-08-05,8,Medium,Completed,
+234,Alan,IT,2025-05-04,12,High,Dropped,Health
+235,Michael,IT,2024-12-09,16,Low,Completed,
+236,Patricia,Data Science,2024-09-28,16,Low,Completed,
+237,Kelly,IT,2024-11-13,4,Medium,Dropped,Personal
+238,John,IT,2024-09-23,16,Medium,Completed,
+239,Jason,Data Science,2024-10-09,12,High,Completed,
+240,Crystal,Operations,2024-10-02,8,Medium,Completed,
+241,Micheal,HR,2025-03-04,12,High,Completed,
+242,Raymond,Finance,2024-11-14,8,Medium,Completed,
+243,Phillip,Operations,2025-05-08,8,Medium,Completed,
+244,Lauren,Finance,2025-06-07,16,High,Completed,
+245,David,IT,2025-08-01,12,Medium,Dropped,Health
+246,Ryan,Finance,2025-07-06,16,High,Completed,
+247,Chase,Data Science,2025-05-02,12,High,Completed,
+248,Brad,Data Science,2024-11-27,12,High,Completed,
+249,Sheena,HR,2025-07-20,8,Low,Completed,
+250,Ian,Marketing,2025-08-03,12,High,Dropped,Other
+251,Sarah,Operations,2025-06-24,4,High,Completed,
+252,Vincent,Operations,2025-08-23,8,High,Completed,
+253,Jill,Finance,2025-02-26,12,Medium,Completed,
+254,Bruce,HR,2025-04-14,12,High,Dropped,Workload
+255,Andrew,Marketing,2025-05-21,4,High,Completed,
+256,Stephanie,Marketing,2025-06-06,4,High,Dropped,Health
+257,Joshua,IT,2025-04-02,16,Medium,Completed,
+258,Jason,Data Science,2024-09-30,4,High,Completed,
+259,Catherine,IT,2025-05-31,8,High,Dropped,Health
+260,Gregory,HR,2025-02-05,16,Medium,Completed,
+261,Alexis,Marketing,2025-06-22,16,Medium,Dropped,Health
+262,Traci,IT,2025-08-07,16,Low,Completed,
+263,Victoria,IT,2025-03-23,12,Low,Dropped,Other
+264,Jonathan,HR,2024-11-05,16,High,Completed,
+265,Richard,Operations,2025-02-14,8,Medium,Completed,
+266,Jonathan,Finance,2025-06-11,12,High,Dropped,Other
+267,James,Finance,2024-12-17,12,Medium,Completed,
+268,Diana,Finance,2025-08-23,4,High,Completed,
+269,Jeremy,Data Science,2024-09-24,8,Medium,Completed,
+270,Christina,Data Science,2025-07-11,12,Low,Completed,
+271,Lawrence,HR,2025-06-15,8,High,Dropped,Other
+272,Eric,IT,2025-03-09,12,Low,Dropped,Personal
+273,Kristy,Finance,2025-05-06,16,High,Completed,
+274,Grant,Operations,2025-08-22,8,Low,Completed,
+275,Lisa,HR,2025-05-18,12,Medium,Completed,
+276,Gabrielle,Finance,2025-08-12,16,High,Completed,
+277,Carl,Operations,2025-05-04,8,High,Completed,
+278,Maria,HR,2025-04-23,12,Medium,Completed,
+279,Brittany,Marketing,2025-05-29,16,High,Completed,
+280,Julie,IT,2025-01-01,16,Medium,Dropped,Other
+281,Hannah,Finance,2024-10-24,8,Medium,Completed,
+282,Elizabeth,IT,2024-09-17,8,Low,Dropped,Personal
+283,Matthew,Marketing,2024-09-28,16,High,Completed,
+284,John,Finance,2025-03-20,16,High,Completed,
+285,Jacqueline,Marketing,2025-06-22,8,Medium,Completed,
+286,Melissa,Finance,2024-11-17,16,High,Completed,
+287,Pamela,Operations,2025-02-14,12,High,Dropped,Other
+288,Natasha,Data Science,2025-01-13,4,Medium,Completed,
+289,Victoria,Data Science,2024-12-21,16,High,Completed,
+290,Ashley,IT,2024-12-12,12,High,Dropped,Health
+291,Angela,Finance,2025-08-30,4,High,Completed,
+292,Patty,Finance,2025-08-15,12,Medium,Completed,
+293,Calvin,HR,2025-02-16,4,Medium,Completed,
+294,Marilyn,Finance,2025-07-22,4,Medium,Dropped,Health
+295,James,IT,2025-06-04,16,Medium,Completed,
+296,Alexander,HR,2024-10-08,16,Low,Dropped,Personal
+297,Frank,Finance,2024-12-27,8,Low,Completed,
+298,Robert,Finance,2024-11-11,16,Medium,Completed,
+299,Sue,Operations,2024-12-21,4,Medium,Completed,
+300,Denise,Marketing,2025-09-06,8,High,Completed,
+301,James,Data Science,2024-10-23,12,High,Dropped,Personal
+302,Jeremy,Finance,2025-04-21,12,High,Dropped,Workload
+303,Linda,Operations,2025-09-06,12,High,Completed,
+304,Katherine,HR,2025-01-19,16,High,Completed,
+305,Anthony,Operations,2024-10-13,8,Medium,Completed,
+306,Rachel,Finance,2025-05-27,4,Medium,Completed,
+307,Christina,Operations,2025-05-31,12,Medium,Completed,
+308,Maxwell,Data Science,2025-06-13,16,High,Completed,
+309,Kevin,Operations,2025-05-08,4,Low,Completed,
+310,Anthony,IT,2025-07-15,12,Medium,Completed,
+311,Vanessa,Marketing,2025-04-07,4,Low,Completed,
+312,Stephen,IT,2024-12-25,8,Medium,Completed,
+313,Kyle,Operations,2025-06-15,4,Low,Completed,
+314,Samantha,Finance,2024-10-28,4,High,Completed,
+315,Emily,Marketing,2025-06-07,4,High,Completed,
+316,Chad,Operations,2024-11-29,12,Low,Completed,
+317,Tammy,Marketing,2024-12-06,16,Medium,Completed,
+318,John,Operations,2025-07-25,12,High,Completed,
+319,Timothy,Operations,2024-12-30,4,Low,Dropped,Workload
+320,Latasha,Data Science,2025-07-20,8,High,Completed,
+321,Jeffery,Marketing,2024-10-25,4,Medium,Dropped,Workload
+322,Lori,Finance,2025-08-04,16,High,Completed,
+323,Karen,Marketing,2025-04-08,16,Medium,Dropped,Other
+324,Craig,Finance,2024-11-28,8,High,Dropped,Health
+325,Jane,Finance,2025-09-02,16,High,Completed,
+326,Jeffrey,Operations,2024-12-04,8,High,Dropped,Health
+327,Edward,Data Science,2025-04-03,16,Medium,Completed,
+328,Leslie,Marketing,2025-07-26,12,High,Completed,
+329,Kari,Operations,2025-09-05,16,Medium,Completed,
+330,Cory,Finance,2025-06-06,8,High,Completed,
+331,Mary,Finance,2025-08-12,8,High,Completed,
+332,Chase,Data Science,2025-05-20,12,Low,Completed,
+333,Roger,Operations,2025-04-12,16,High,Dropped,Personal
+334,Angela,Finance,2024-10-21,4,Low,Completed,
+335,Olivia,Finance,2025-05-28,16,High,Dropped,Workload
+336,David,HR,2025-05-14,12,High,Dropped,Workload
+337,Justin,Finance,2025-03-15,8,High,Dropped,Personal
+338,Alexis,Finance,2024-10-24,4,Medium,Completed,
+339,Harry,Operations,2024-11-18,8,High,Completed,
+340,Eric,HR,2025-04-09,12,Low,Completed,
+341,Patrick,Data Science,2024-12-23,12,High,Completed,
+342,Jessica,HR,2024-10-14,16,Low,Completed,
+343,Brittany,Finance,2024-11-30,16,High,Completed,
+344,Johnny,IT,2024-11-19,12,High,Completed,
+345,Rebecca,Finance,2025-08-30,4,High,Completed,
+346,Jill,Marketing,2024-11-20,16,Low,Completed,
+347,Joseph,IT,2024-10-22,8,Low,Dropped,Other
+348,Kristen,Marketing,2024-11-07,8,High,Completed,
+349,Scott,HR,2025-04-11,8,High,Dropped,Health
+350,Rebecca,IT,2025-03-21,8,Low,Completed,
+351,Amanda,Data Science,2024-12-01,4,Medium,Dropped,Other
+352,Victoria,Finance,2025-03-09,16,High,Completed,
+353,Jeffrey,Data Science,2024-12-24,4,High,Completed,
+354,Kimberly,Operations,2025-07-13,16,High,Completed,
+355,Kristen,Finance,2025-03-02,12,Medium,Completed,
+356,Victor,Finance,2025-01-20,12,High,Completed,
+357,Heather,Operations,2025-07-04,16,Medium,Dropped,Health
+358,Vincent,Operations,2025-05-31,8,Low,Dropped,Personal
+359,Michelle,Operations,2024-12-11,8,High,Completed,
+360,James,Operations,2025-08-18,16,High,Completed,
+361,Grace,Finance,2024-10-05,8,Low,Completed,
+362,Brandi,Finance,2025-06-29,8,High,Completed,
+363,William,Marketing,2025-08-09,16,Medium,Dropped,Personal
+364,Kimberly,Operations,2025-02-06,4,Medium,Completed,
+365,Robin,Marketing,2025-06-15,4,High,Dropped,Workload
+366,Maria,Finance,2025-08-03,8,Low,Completed,
+367,Stephanie,IT,2025-05-26,12,Medium,Completed,
+368,Monica,Data Science,2024-12-14,4,High,Dropped,Health
+369,Ryan,Marketing,2024-09-10,16,High,Completed,
+370,Gary,Finance,2025-06-19,16,Medium,Completed,
+371,Rebecca,HR,2024-09-17,16,High,Dropped,Personal
+372,Joe,Marketing,2025-04-08,4,High,Completed,
+373,Ashlee,IT,2025-08-22,16,Low,Completed,
+374,Crystal,Data Science,2025-02-22,16,Medium,Dropped,Other
+375,Julie,Marketing,2024-09-20,4,High,Completed,
+376,Christina,Finance,2025-07-29,16,Medium,Completed,
+377,Michael,Marketing,2025-06-18,16,Medium,Completed,
+378,Monica,Data Science,2024-09-20,16,Low,Dropped,Other
+379,Lucas,IT,2024-10-03,4,High,Completed,
+380,Brittany,HR,2024-09-28,8,Low,Dropped,Personal
+381,Jeremy,IT,2025-02-10,8,High,Completed,
+382,Anthony,Data Science,2025-05-01,8,High,Completed,
+383,Brittany,Data Science,2024-11-02,12,Medium,Dropped,Workload
+384,Teresa,Marketing,2025-07-23,12,High,Dropped,Personal
+385,Phillip,Marketing,2024-10-22,16,Low,Completed,
+386,Daniel,Operations,2024-11-03,8,Medium,Dropped,Health
+387,Nicole,Data Science,2025-04-10,16,Medium,Dropped,Health
+388,Cody,IT,2025-03-24,12,Medium,Completed,
+389,James,Operations,2025-04-02,12,High,Completed,
+390,Jennifer,HR,2025-02-24,12,Medium,Completed,
+391,Peter,Data Science,2025-05-15,8,Low,Completed,
+392,Christopher,Data Science,2025-08-19,16,Medium,Completed,
+393,Mark,HR,2024-12-02,8,Low,Dropped,Personal
+394,Joseph,IT,2025-04-03,12,Low,Dropped,Other
+395,Gabrielle,Operations,2025-01-29,16,High,Completed,
+396,Jeffrey,HR,2024-12-31,4,High,Completed,
+397,Joseph,HR,2024-11-09,16,Low,Completed,
+398,Carla,IT,2025-04-08,16,High,Completed,
+399,Carrie,Marketing,2025-04-19,4,Medium,Completed,
+400,Michaela,Data Science,2025-05-18,4,Low,Completed,
+401,Deborah,Data Science,2025-06-29,8,Medium,Completed,
+402,Renee,Marketing,2025-03-11,8,High,Completed,
+403,Chad,Finance,2025-08-08,4,High,Completed,
+404,Emily,Marketing,2025-03-15,16,Low,Completed,
+405,Vincent,HR,2025-06-22,4,High,Completed,
+406,Jack,HR,2025-02-16,4,High,Completed,
+407,Kyle,IT,2025-08-08,16,Low,Dropped,Other
+408,Danielle,Marketing,2025-04-21,16,Low,Completed,
+409,Chad,Data Science,2025-01-05,4,Low,Completed,
+410,Kyle,IT,2025-07-29,4,Low,Completed,
+411,Brandon,HR,2025-03-04,12,Low,Completed,
+412,Bobby,IT,2024-11-24,8,Low,Completed,
+413,Ashley,HR,2025-06-04,16,Medium,Completed,
+414,Christine,Finance,2025-06-09,16,Low,Completed,
+415,Matthew,Finance,2024-12-29,12,High,Completed,
+416,Mary,Finance,2025-03-31,12,Low,Dropped,Health
+417,Elizabeth,Marketing,2025-02-22,4,High,Completed,
+418,Alfred,Finance,2025-02-27,12,Medium,Dropped,Health
+419,Michelle,HR,2025-06-24,12,High,Completed,
+420,Jason,Operations,2025-05-07,8,High,Completed,
+421,Matthew,HR,2025-08-21,16,High,Completed,
+422,Monica,IT,2025-04-19,8,High,Completed,
+423,Allison,Marketing,2025-07-16,16,High,Completed,
+424,Timothy,Operations,2024-10-17,8,High,Dropped,Health
+425,Michael,Data Science,2025-06-11,4,Medium,Completed,
+426,Emily,Operations,2025-07-09,12,Low,Completed,
+427,Cheyenne,Operations,2025-05-01,4,High,Completed,
+428,Mary,IT,2024-12-21,4,High,Completed,
+429,Maria,HR,2025-07-01,12,High,Completed,
+430,Richard,HR,2025-08-18,8,High,Dropped,Workload
+431,Mark,HR,2024-09-08,16,High,Dropped,Health
+432,Eugene,Data Science,2024-11-29,8,High,Dropped,Health
+433,Paul,IT,2025-03-18,16,Low,Dropped,Health
+434,Kelly,Finance,2025-05-29,4,High,Completed,
+435,Molly,HR,2025-01-17,4,High,Completed,
+436,Amanda,IT,2025-06-15,8,High,Completed,
+437,Christopher,HR,2025-07-22,16,High,Completed,
+438,William,Data Science,2025-06-25,12,High,Completed,
+439,Jon,Marketing,2025-03-08,16,High,Dropped,Other
+440,Lisa,IT,2024-10-04,12,Medium,Completed,
+441,Jennifer,Finance,2024-10-11,4,Medium,Completed,
+442,Michelle,Operations,2025-01-10,16,Low,Completed,
+443,Andrew,Data Science,2024-10-28,8,Low,Dropped,Workload
+444,Abigail,HR,2025-01-07,16,High,Completed,
+445,Timothy,Marketing,2025-03-25,12,Low,Dropped,Personal
+446,Jose,Marketing,2025-03-28,4,Medium,Completed,
+447,Thomas,Data Science,2025-01-03,12,High,Completed,
+448,Karen,Data Science,2025-03-08,4,High,Completed,
+449,Anthony,Data Science,2024-09-29,12,High,Dropped,Personal
+450,Nicholas,HR,2025-06-08,12,High,Dropped,Personal
+451,Charles,Data Science,2024-12-12,12,High,Completed,
+452,Donald,HR,2025-06-11,8,Medium,Completed,
+453,Leah,Operations,2024-09-26,12,High,Completed,
+454,James,Data Science,2025-03-06,4,Medium,Dropped,Other
+455,Diana,HR,2025-01-04,4,Medium,Dropped,Health
+456,Renee,HR,2025-05-07,12,Medium,Completed,
+457,Thomas,Operations,2025-07-24,8,Low,Completed,
+458,Jill,Marketing,2024-10-26,12,High,Completed,
+459,Gabriel,Operations,2024-12-17,4,Low,Completed,
+460,Mary,Finance,2024-10-22,16,Medium,Completed,
+461,Bobby,HR,2025-01-29,8,Medium,Completed,
+462,Alex,Data Science,2024-11-13,12,High,Completed,
+463,Jonathan,Data Science,2024-12-22,4,Medium,Completed,
+464,Shane,IT,2024-12-31,12,High,Dropped,Health
+465,Louis,Operations,2025-03-15,8,High,Completed,
+466,Joshua,IT,2025-07-25,16,Medium,Completed,
+467,Angela,Data Science,2024-11-26,8,Low,Completed,
+468,Rachael,Marketing,2024-09-23,8,High,Completed,
+469,Tyler,Finance,2025-05-01,8,Low,Dropped,Workload
+470,Shannon,Marketing,2025-07-28,16,High,Completed,
+471,Samantha,Marketing,2024-12-26,8,High,Dropped,Personal
+472,Stephanie,Marketing,2025-07-15,8,High,Completed,
+473,Todd,IT,2025-06-29,12,Low,Completed,
+474,Sarah,Finance,2024-10-07,12,Medium,Completed,
+475,Logan,Operations,2025-07-30,8,High,Dropped,Other
+476,Emily,Marketing,2024-12-08,8,High,Completed,
+477,Robin,Operations,2025-05-12,8,Medium,Dropped,Personal
+478,Christopher,IT,2025-06-12,16,High,Completed,
+479,Christopher,IT,2025-03-18,4,High,Completed,
+480,Kelly,IT,2024-11-16,8,Low,Dropped,Workload
+481,Lisa,IT,2025-07-29,4,Low,Completed,
+482,Theresa,Finance,2025-04-28,4,High,Completed,
+483,Xavier,Data Science,2025-01-18,8,Medium,Completed,
+484,Kevin,HR,2025-02-21,12,Medium,Completed,
+485,Susan,HR,2025-07-24,16,Low,Completed,
+486,Joseph,Operations,2025-03-16,12,High,Completed,
+487,Brian,Finance,2024-12-07,16,Low,Dropped,Health
+488,Samuel,IT,2024-10-25,12,Medium,Completed,
+489,Tamara,Finance,2025-05-24,16,Low,Dropped,Workload
+490,Jack,Marketing,2025-01-19,16,High,Completed,
+491,David,IT,2025-01-02,8,Medium,Completed,
+492,Candace,Operations,2024-11-16,12,High,Completed,
+493,Marie,IT,2025-06-22,8,High,Dropped,Personal
+494,Robert,Data Science,2025-03-13,4,High,Completed,
+495,Janice,Data Science,2025-04-13,4,Medium,Completed,
+496,Patricia,Finance,2025-09-05,16,Medium,Dropped,Other
+497,Kimberly,HR,2024-12-01,8,High,Completed,
+498,Roger,Marketing,2024-11-02,12,Low,Completed,
+499,Robert,HR,2024-09-10,8,Medium,Completed,
+500,David,Finance,2024-10-01,4,Medium,Completed,
+501,Justin,IT,2024-11-27,12,Medium,Dropped,Personal
+502,Pamela,Data Science,2025-02-28,12,High,Completed,
+503,Rachel,HR,2025-05-26,12,Medium,Dropped,Personal
+504,Craig,Operations,2025-03-05,4,High,Completed,
+505,Monica,IT,2025-04-11,8,Medium,Completed,
+506,Brandy,Marketing,2024-11-14,16,Medium,Completed,
+507,Lisa,Operations,2024-09-27,12,Medium,Completed,
+508,Jacob,HR,2025-08-20,8,High,Completed,
+509,Tony,IT,2024-11-15,8,High,Completed,
+510,Stephanie,IT,2024-11-26,8,Medium,Dropped,Workload
+511,Walter,HR,2025-04-16,8,High,Completed,
+512,Jill,Operations,2025-06-25,16,High,Completed,
+513,Andrew,Data Science,2024-11-15,16,High,Dropped,Personal
+514,Joseph,Data Science,2024-11-14,12,High,Completed,
+515,Joshua,Data Science,2024-09-23,16,High,Completed,
+516,Denise,Data Science,2024-09-23,8,Low,Dropped,Personal
+517,Jeremy,Finance,2024-12-28,4,Low,Completed,
+518,Patricia,HR,2025-06-15,16,High,Completed,
+519,Marc,Finance,2024-10-19,12,High,Completed,
+520,Michelle,IT,2024-12-11,16,High,Completed,
+521,Douglas,Marketing,2025-06-11,4,High,Completed,
+522,Jennifer,Marketing,2025-09-07,16,High,Completed,
+523,Sheila,HR,2024-10-29,4,Medium,Dropped,Other
+524,Danielle,Marketing,2025-05-19,4,High,Completed,
+525,Jeffrey,IT,2025-07-26,4,Medium,Completed,
+526,Marissa,Operations,2025-05-16,16,Low,Completed,
+527,Heather,HR,2025-06-14,16,High,Completed,
+528,Teresa,Finance,2025-02-18,4,High,Completed,
+529,Steven,HR,2025-07-11,12,Low,Completed,
+530,Gary,Marketing,2025-06-08,8,High,Dropped,Workload
+531,Erica,Finance,2025-08-18,12,Medium,Completed,
+532,Christopher,Data Science,2025-03-07,8,High,Completed,
+533,Ricky,HR,2025-07-02,4,High,Completed,
+534,Angela,IT,2025-04-17,16,High,Completed,
+535,Scott,HR,2024-09-25,12,High,Dropped,Workload
+536,Joseph,Data Science,2025-02-02,16,High,Completed,
+537,James,Data Science,2024-11-15,8,Medium,Completed,
+538,Mary,HR,2025-03-02,4,High,Completed,
+539,Sara,Data Science,2024-12-01,4,High,Completed,
+540,Kevin,Operations,2024-09-21,12,High,Completed,
+541,Kevin,Marketing,2025-04-23,4,High,Dropped,Workload
+542,Gabriella,Data Science,2025-04-12,4,High,Completed,
+543,Kyle,Operations,2025-03-15,8,Medium,Completed,
+544,Linda,IT,2025-01-16,16,High,Dropped,Workload
+545,Alexander,Marketing,2024-11-06,16,High,Completed,
+546,Deborah,Operations,2025-04-21,16,High,Completed,
+547,Jason,Data Science,2025-06-30,4,High,Completed,
+548,Miguel,HR,2025-06-24,4,Low,Completed,
+549,Bethany,Finance,2025-02-08,16,High,Completed,
+550,Wendy,IT,2024-09-14,4,Medium,Dropped,Workload
+551,Sean,Operations,2025-04-26,12,High,Completed,
+552,Logan,IT,2024-12-30,4,High,Completed,
+553,Joshua,IT,2025-02-21,8,High,Completed,
+554,Joshua,Operations,2025-01-27,8,High,Completed,
+555,Jeremiah,HR,2024-12-25,16,High,Dropped,Personal
+556,Alicia,Data Science,2025-03-26,8,Medium,Completed,
+557,Robert,HR,2024-10-05,12,High,Completed,
+558,Deborah,Marketing,2025-01-01,8,High,Dropped,Workload
+559,Robert,IT,2025-03-17,4,High,Completed,
+560,Shannon,HR,2025-03-09,8,High,Completed,
+561,Bradley,Operations,2025-03-26,8,Medium,Completed,
+562,Christopher,Marketing,2025-08-26,16,Medium,Dropped,Workload
+563,Shawn,Marketing,2025-06-18,4,Medium,Dropped,Other
+564,Michelle,Data Science,2024-09-08,12,Medium,Dropped,Workload
+565,Krista,Finance,2025-01-12,12,High,Completed,
+566,Geoffrey,Finance,2025-05-07,12,High,Completed,
+567,Michael,Finance,2024-11-14,12,High,Dropped,Workload
+568,Stephanie,HR,2024-12-20,12,High,Dropped,Health
+569,Margaret,Data Science,2024-12-22,4,High,Dropped,Other
+570,David,Finance,2025-08-01,16,High,Completed,
+571,Cynthia,Finance,2025-07-29,12,Low,Completed,
+572,Shannon,Marketing,2025-01-26,8,Low,Completed,
+573,Matthew,Operations,2025-05-09,4,High,Completed,
+574,Angelica,IT,2024-10-02,8,High,Dropped,Other
+575,Kristen,Marketing,2024-10-04,4,Low,Completed,
+576,Sara,Finance,2025-05-10,16,Medium,Dropped,Workload
+577,Grace,Finance,2024-12-09,8,Low,Completed,
+578,Karen,IT,2025-03-12,4,Low,Completed,
+579,Michael,Marketing,2024-10-02,4,Medium,Dropped,Health
+580,Ian,Data Science,2025-02-10,12,Low,Completed,
+581,Andrew,Operations,2025-07-27,8,High,Completed,
+582,Leah,Operations,2025-02-15,12,High,Completed,
+583,Alexa,HR,2025-05-20,12,Medium,Completed,
+584,Joshua,Finance,2025-07-08,4,High,Completed,
+585,Matthew,Operations,2025-01-21,16,Medium,Completed,
+586,Francis,Finance,2025-02-11,12,High,Dropped,Other
+587,Patricia,Marketing,2025-03-07,16,High,Completed,
+588,Daniel,Marketing,2024-12-08,12,High,Dropped,Personal
+589,James,Finance,2025-05-15,8,High,Completed,
+590,Jesse,Data Science,2025-08-22,8,High,Completed,
+591,Cynthia,Data Science,2025-08-18,12,High,Completed,
+592,Devin,Finance,2025-06-22,16,High,Dropped,Other
+593,Erin,Finance,2024-10-19,16,High,Completed,
+594,Mandy,Data Science,2025-03-15,8,High,Dropped,Other
+595,Caitlin,Operations,2024-10-06,12,Low,Completed,
+596,Michael,Marketing,2025-06-27,16,Medium,Dropped,Health
+597,Michael,IT,2025-09-04,4,High,Completed,
+598,Aaron,Operations,2025-01-19,16,Medium,Completed,
+599,Eric,Data Science,2025-07-14,12,Low,Dropped,Other
+600,Benjamin,Marketing,2025-08-09,4,Low,Completed,
+601,Christy,Data Science,2025-08-17,16,High,Completed,
+602,Sara,HR,2025-09-03,8,High,Completed,
+603,Anna,HR,2024-10-03,4,Low,Completed,
+604,Denise,HR,2025-03-09,12,Low,Dropped,Personal
+605,Lisa,HR,2025-02-02,4,High,Completed,
+606,Alan,HR,2025-01-02,4,Medium,Completed,
+607,Cheyenne,Finance,2025-01-29,8,High,Completed,
+608,Carol,Marketing,2025-01-09,4,High,Completed,
+609,Justin,Operations,2025-06-02,16,High,Completed,
+610,Matthew,Operations,2025-07-14,12,Medium,Completed,
+611,Nathaniel,Finance,2025-07-04,12,Medium,Dropped,Workload
+612,Bryan,Marketing,2025-05-23,4,High,Completed,
+613,Daniel,HR,2025-07-09,16,Low,Dropped,Personal
+614,Monica,HR,2024-10-15,12,Low,Completed,
+615,Raymond,IT,2025-06-04,12,High,Completed,
+616,Russell,Operations,2025-08-13,8,Medium,Completed,
+617,Matthew,Marketing,2025-07-15,16,Medium,Completed,
+618,Allen,Marketing,2025-07-10,4,Low,Completed,
+619,Lisa,Operations,2024-10-16,16,Low,Dropped,Personal
+620,Ashley,Operations,2025-03-10,12,High,Dropped,Other
+621,Terri,Data Science,2025-03-05,16,Medium,Completed,
+622,Phillip,Data Science,2025-01-17,16,Medium,Dropped,Other
+623,John,IT,2025-03-08,12,Medium,Completed,
+624,Nicholas,Finance,2025-07-14,12,Low,Completed,
+625,Rachel,Data Science,2025-04-17,8,High,Dropped,Personal
+626,Brooke,Operations,2024-11-27,4,Medium,Completed,
+627,David,Operations,2024-09-15,8,Medium,Dropped,Personal
+628,April,Data Science,2025-08-20,4,High,Completed,
+629,Karen,IT,2025-04-29,16,High,Completed,
+630,Kimberly,IT,2025-02-27,12,High,Dropped,Workload
+631,Stephen,Finance,2024-09-10,8,High,Completed,
+632,Paul,Data Science,2025-06-01,8,High,Completed,
+633,Sharon,Finance,2025-05-02,4,Medium,Completed,
+634,Matthew,Operations,2025-06-16,12,High,Completed,
+635,Kristen,Operations,2024-10-25,8,High,Completed,
+636,Ryan,IT,2025-05-23,12,High,Completed,
+637,Kyle,Data Science,2025-01-15,4,Low,Dropped,Personal
+638,Emily,Data Science,2025-02-06,16,High,Completed,
+639,Nathan,HR,2024-09-09,4,Low,Completed,
+640,Andrew,Marketing,2025-07-11,4,High,Completed,
+641,Ryan,Operations,2024-12-25,4,High,Completed,
+642,Joanna,Operations,2025-08-01,8,High,Completed,
+643,Leslie,Data Science,2025-03-21,16,High,Completed,
+644,Kimberly,IT,2024-11-28,12,Medium,Dropped,Health
+645,Hailey,Finance,2025-02-12,12,Medium,Completed,
+646,Amanda,Operations,2025-08-10,16,Medium,Dropped,Health
+647,Jason,Data Science,2025-06-16,4,Medium,Completed,
+648,Amy,HR,2025-08-19,8,Medium,Completed,
+649,Jared,Finance,2024-12-07,8,High,Completed,
+650,Lisa,IT,2025-03-16,12,High,Completed,
+651,Elizabeth,Data Science,2025-07-23,12,Low,Completed,
+652,Robert,Operations,2025-06-21,12,Low,Completed,
+653,Lauren,HR,2025-06-15,4,Low,Completed,
+654,Mark,IT,2024-09-10,8,High,Dropped,Workload
+655,April,HR,2025-05-15,8,High,Dropped,Workload
+656,Susan,Data Science,2025-01-01,4,Medium,Dropped,Personal
+657,Andrea,IT,2024-09-14,8,High,Completed,
+658,Monique,IT,2025-02-04,8,Low,Completed,
+659,Chad,HR,2025-01-28,12,Low,Completed,
+660,Amanda,HR,2025-08-10,12,Medium,Completed,
+661,Tina,Marketing,2025-07-24,16,Medium,Completed,
+662,Dakota,Operations,2024-12-10,4,High,Dropped,Workload
+663,Cindy,Data Science,2025-03-15,16,Low,Completed,
+664,Joseph,Marketing,2024-10-04,4,Low,Dropped,Workload
+665,Amanda,IT,2025-04-10,4,High,Dropped,Workload
+666,Emily,Operations,2025-03-31,16,Low,Dropped,Workload
+667,Meghan,Finance,2025-09-03,16,Low,Dropped,Personal
+668,Logan,Data Science,2025-06-25,16,High,Dropped,Other
+669,Darrell,IT,2025-01-08,16,High,Completed,
+670,John,IT,2024-10-07,16,Low,Completed,
+671,Patricia,Data Science,2025-02-20,8,High,Completed,
+672,Kevin,HR,2025-04-28,4,Medium,Completed,
+673,Timothy,Data Science,2024-11-24,8,Medium,Completed,
+674,Mark,Operations,2024-09-25,8,High,Completed,
+675,Richard,Finance,2025-06-02,12,Low,Completed,
+676,Megan,Operations,2024-10-10,12,High,Completed,
+677,Katherine,Operations,2025-08-14,8,High,Dropped,Other
+678,Ryan,Finance,2024-12-27,4,Medium,Completed,
+679,Brittany,Marketing,2025-08-20,8,Medium,Dropped,Workload
+680,Rachel,Finance,2025-08-26,16,High,Completed,
+681,Rodney,IT,2025-07-25,8,Medium,Completed,
+682,Philip,Marketing,2025-07-18,8,High,Completed,
+683,Antonio,HR,2024-12-13,8,High,Completed,
+684,Scott,Data Science,2024-09-16,12,High,Completed,
+685,Ross,Data Science,2024-09-12,8,Medium,Completed,
+686,Wanda,Operations,2025-01-04,8,High,Completed,
+687,James,Marketing,2025-08-27,16,High,Completed,
+688,Bethany,IT,2025-08-24,16,High,Completed,
+689,Olivia,Operations,2024-12-16,12,Medium,Completed,
+690,Courtney,Data Science,2025-04-07,4,Medium,Completed,
+691,Marcia,Finance,2024-10-06,16,Low,Completed,
+692,Justin,HR,2024-10-05,12,High,Completed,
+693,Megan,Marketing,2024-10-03,12,Low,Completed,
+694,Mark,IT,2025-07-13,4,Medium,Completed,
+695,Donald,Data Science,2024-12-16,4,Medium,Completed,
+696,Michael,Data Science,2025-05-06,16,High,Completed,
+697,Jocelyn,Data Science,2025-01-30,8,Medium,Dropped,Workload
+698,Pamela,Marketing,2025-05-23,16,High,Completed,
+699,David,Marketing,2025-07-18,4,Medium,Completed,
+700,Kenneth,Operations,2025-05-20,4,Medium,Completed,
+701,Tamara,Data Science,2025-02-07,8,High,Dropped,Workload
+702,Julia,Marketing,2024-10-12,4,High,Completed,
+703,Danny,HR,2025-08-01,4,Medium,Completed,
+704,Linda,IT,2025-05-17,8,High,Completed,
+705,Katherine,Operations,2025-03-24,16,Medium,Completed,
+706,James,Data Science,2024-12-21,4,Low,Completed,
+707,Joseph,Marketing,2025-08-29,4,Medium,Completed,
+708,Alexander,Finance,2024-12-20,16,High,Completed,
+709,Jesus,Operations,2025-03-16,4,High,Completed,
+710,Angela,Data Science,2024-10-26,16,Medium,Dropped,Health
+711,Sandy,HR,2025-04-26,4,Medium,Completed,
+712,John,Marketing,2024-11-18,8,Low,Completed,
+713,Derek,Operations,2024-11-25,4,Medium,Completed,
+714,Wesley,Finance,2025-07-18,8,High,Completed,
+715,Sabrina,HR,2025-04-26,16,High,Completed,
+716,Phillip,Operations,2025-03-14,4,Low,Completed,
+717,Pamela,Marketing,2025-06-13,16,Medium,Completed,
+718,Stephanie,Operations,2025-04-13,12,Medium,Completed,
+719,Joseph,HR,2024-10-21,12,High,Completed,
+720,Anthony,HR,2025-04-06,4,Medium,Dropped,Personal
+721,Vanessa,HR,2025-02-02,12,High,Dropped,Health
+722,Linda,HR,2025-04-04,12,Medium,Completed,
+723,Mary,HR,2025-05-24,8,Medium,Dropped,Other
+724,Kimberly,HR,2025-04-07,8,Medium,Dropped,Personal
+725,Cassandra,Finance,2024-12-30,8,High,Completed,
+726,Laura,Operations,2025-08-16,12,High,Dropped,Health
+727,Jason,Marketing,2025-03-24,12,Low,Completed,
+728,Darius,Finance,2024-10-12,12,High,Completed,
+729,Tyler,IT,2025-03-11,8,Medium,Completed,
+730,Andrea,Operations,2024-10-02,8,High,Dropped,Health
+731,Michael,Operations,2025-01-01,8,High,Completed,
+732,Tonya,HR,2025-06-18,8,High,Completed,
+733,Courtney,Operations,2025-02-02,4,Medium,Completed,
+734,Brandy,Data Science,2025-02-03,4,Low,Completed,
+735,Gregory,Marketing,2025-04-21,12,High,Completed,
+736,Paul,Operations,2025-06-21,8,Low,Completed,
+737,Troy,Marketing,2025-04-28,8,High,Completed,
+738,Elaine,Data Science,2024-11-23,4,High,Dropped,Workload
+739,Dawn,Finance,2025-09-05,4,Medium,Completed,
+740,Jennifer,Marketing,2025-01-02,4,Medium,Completed,
+741,Mary,Operations,2024-11-21,16,Medium,Completed,
+742,Rachel,HR,2024-11-01,16,Low,Completed,
+743,Joseph,IT,2025-07-10,16,High,Completed,
+744,Shelly,Data Science,2024-09-20,8,High,Dropped,Health
+745,Christine,IT,2024-12-20,16,Low,Completed,
+746,Rebecca,Operations,2024-09-24,4,High,Completed,
+747,Cindy,HR,2025-04-05,12,High,Completed,
+748,Nathaniel,Operations,2025-09-03,12,High,Dropped,Other
+749,Nicholas,HR,2024-10-07,8,High,Completed,
+750,Jesse,HR,2024-11-24,4,High,Completed,
+751,Kristin,Operations,2025-03-17,4,High,Completed,
+752,Kyle,IT,2024-10-01,8,Low,Completed,
+753,Erin,Data Science,2025-02-15,12,Medium,Completed,
+754,Sarah,Data Science,2025-06-27,16,Medium,Completed,
+755,Kelly,Marketing,2025-03-17,8,High,Completed,
+756,Lisa,HR,2025-03-17,16,Medium,Completed,
+757,Billy,Finance,2025-04-29,4,Low,Completed,
+758,Holly,IT,2025-04-23,8,High,Completed,
+759,Autumn,Finance,2025-01-24,12,Medium,Dropped,Health
+760,Jenna,Operations,2024-09-30,8,Medium,Completed,
+761,Samantha,Marketing,2025-02-06,12,Medium,Completed,
+762,Jason,Operations,2025-02-12,16,Low,Completed,
+763,Anne,Finance,2024-09-28,16,Medium,Dropped,Health
+764,Alex,HR,2025-02-16,8,High,Completed,
+765,Ian,Operations,2025-01-07,4,High,Completed,
+766,Stacey,Data Science,2024-12-13,4,High,Completed,
+767,Denise,HR,2025-04-26,4,Low,Completed,
+768,Wanda,Marketing,2024-11-23,12,Medium,Completed,
+769,Patricia,Data Science,2025-04-04,12,High,Dropped,Personal
+770,Katie,Finance,2025-04-01,16,High,Completed,
+771,Jason,Marketing,2025-08-04,16,High,Completed,
+772,Philip,IT,2025-05-01,16,Low,Completed,
+773,Belinda,Finance,2025-08-15,12,Medium,Completed,
+774,James,Operations,2024-12-02,4,High,Dropped,Health
+775,Daniel,Finance,2024-12-28,4,High,Completed,
+776,Amber,Data Science,2025-08-26,4,Medium,Completed,
+777,Matthew,Data Science,2024-11-04,12,Low,Completed,
+778,Sydney,Data Science,2025-07-28,4,Low,Completed,
+779,Courtney,Operations,2025-07-10,8,Low,Completed,
+780,Sarah,Operations,2024-10-01,8,Low,Completed,
+781,Sergio,IT,2025-03-08,16,High,Completed,
+782,James,HR,2024-11-12,16,High,Dropped,Health
+783,Jessica,Marketing,2025-07-25,12,Medium,Dropped,Personal
+784,Charles,IT,2025-06-17,16,High,Dropped,Personal
+785,Brent,Finance,2025-07-17,12,High,Completed,
+786,Brittany,Finance,2024-09-09,12,Medium,Completed,
+787,Mitchell,Operations,2025-01-08,16,High,Completed,
+788,Rhonda,HR,2024-12-10,8,Low,Completed,
+789,Robert,Operations,2025-08-11,4,Medium,Completed,
+790,Sara,Data Science,2024-09-11,8,Medium,Completed,
+791,Elizabeth,HR,2025-06-04,4,Medium,Completed,
+792,Joseph,HR,2024-12-29,16,High,Dropped,Workload
+793,Luke,Operations,2025-02-09,12,High,Completed,
+794,Keith,Data Science,2024-09-22,16,Low,Completed,
+795,Joe,Data Science,2025-01-24,16,Medium,Completed,
+796,Kathleen,Operations,2024-10-12,16,High,Completed,
+797,Nina,HR,2024-10-24,4,High,Dropped,Other
+798,Jason,Data Science,2025-06-29,8,High,Completed,
+799,Timothy,Marketing,2025-01-19,8,Low,Completed,
+800,Deborah,Operations,2025-07-25,8,Medium,Dropped,Personal
+801,Glenn,Operations,2025-03-14,12,Medium,Completed,
+802,Angela,Operations,2025-04-21,8,Low,Completed,
+803,Michele,HR,2025-04-23,8,Low,Completed,
+804,Jacqueline,HR,2024-12-24,16,High,Completed,
+805,Kimberly,HR,2024-12-19,12,Medium,Dropped,Health
+806,Cynthia,Finance,2025-05-01,12,Medium,Completed,
+807,Rachel,Data Science,2024-11-26,4,Low,Completed,
+808,Gavin,Finance,2024-12-25,8,Low,Completed,
+809,Jody,Finance,2024-10-24,4,High,Completed,
+810,Kevin,Data Science,2025-07-17,8,Low,Completed,
+811,Diane,IT,2024-11-30,12,High,Dropped,Personal
+812,Sarah,Operations,2025-01-15,8,Medium,Dropped,Workload
+813,Brittany,HR,2025-02-20,12,High,Dropped,Health
+814,Tyrone,Marketing,2025-07-27,8,Medium,Dropped,Health
+815,Jacqueline,Finance,2025-09-05,12,Medium,Completed,
+816,Anne,HR,2025-03-08,4,High,Completed,
+817,Scott,Finance,2024-10-03,12,Medium,Completed,
+818,Darren,Data Science,2025-06-23,16,High,Completed,
+819,Katrina,HR,2025-08-13,12,High,Completed,
+820,Brooke,Data Science,2024-12-02,4,Medium,Dropped,Other
+821,Charles,IT,2024-12-26,12,High,Completed,
+822,Elizabeth,Marketing,2025-02-06,4,High,Completed,
+823,Robert,IT,2025-02-18,4,Medium,Completed,
+824,Stephanie,HR,2024-11-23,16,High,Completed,
+825,Randy,Operations,2024-10-14,16,High,Completed,
+826,Kaylee,Operations,2025-01-21,12,Medium,Completed,
+827,Benjamin,HR,2025-05-14,8,High,Completed,
+828,Shawn,Finance,2025-02-22,8,High,Completed,
+829,Joshua,HR,2024-10-19,8,High,Completed,
+830,Tyrone,Marketing,2025-03-13,16,Low,Dropped,Health
+831,Hector,Finance,2024-10-08,12,High,Completed,
+832,Paula,HR,2025-05-04,8,Low,Completed,
+833,David,IT,2025-05-07,16,Low,Dropped,Personal
+834,Anthony,Data Science,2024-09-09,12,High,Completed,
+835,Peter,Data Science,2025-02-06,8,Medium,Completed,
+836,Michael,Marketing,2025-08-24,12,High,Completed,
+837,Jeffery,Operations,2024-10-25,16,Medium,Dropped,Other
+838,Monica,IT,2024-10-05,4,High,Completed,
+839,Cameron,IT,2025-04-17,8,High,Completed,
+840,Douglas,Data Science,2025-04-26,4,High,Completed,
+841,Nicole,Marketing,2025-01-03,8,Low,Dropped,Health
+842,Matthew,Operations,2025-06-02,8,High,Dropped,Workload
+843,Mary,HR,2024-12-10,8,Medium,Completed,
+844,Tanya,Data Science,2024-10-05,16,High,Completed,
+845,Richard,Finance,2025-03-02,8,High,Dropped,Workload
+846,Olivia,Operations,2025-07-17,8,High,Dropped,Health
+847,David,IT,2024-12-17,16,High,Completed,
+848,Karen,HR,2024-09-21,4,High,Completed,
+849,Katie,Finance,2025-05-10,12,High,Dropped,Health
+850,Patrick,IT,2025-08-31,4,Medium,Completed,
+851,Kevin,HR,2025-01-04,4,High,Completed,
+852,Devin,HR,2025-09-07,8,Medium,Completed,
+853,Jeffrey,Operations,2025-07-14,4,Low,Completed,
+854,Michael,Operations,2024-12-03,12,High,Completed,
+855,Richard,Finance,2025-06-03,16,Medium,Dropped,Health
+856,John,Operations,2025-08-14,4,Low,Dropped,Personal
+857,Anita,HR,2025-05-05,16,Low,Dropped,Health
+858,Douglas,Marketing,2024-11-12,4,Low,Dropped,Other
+859,Matthew,Data Science,2025-08-08,8,Medium,Completed,
+860,Kristen,IT,2025-08-03,16,High,Completed,
+861,Aaron,Operations,2025-09-04,16,Low,Completed,
+862,Morgan,Operations,2024-11-07,12,Medium,Dropped,Health
+863,Reginald,Finance,2025-04-11,12,Medium,Completed,
+864,Nathan,IT,2025-02-28,16,Low,Completed,
+865,David,HR,2024-11-11,4,Medium,Dropped,Workload
+866,Christine,HR,2025-08-09,4,High,Dropped,Personal
+867,Andrew,Data Science,2025-01-02,4,Medium,Dropped,Other
+868,Linda,IT,2025-08-11,16,Medium,Dropped,Personal
+869,Barry,IT,2024-10-20,8,High,Completed,
+870,April,HR,2025-01-28,8,High,Completed,
+871,Mark,Finance,2024-09-08,8,Low,Completed,
+872,Joe,IT,2025-04-02,8,High,Dropped,Personal
+873,Christian,IT,2025-03-11,12,Medium,Completed,
+874,Caitlin,Finance,2024-10-05,12,High,Completed,
+875,Kevin,Finance,2025-04-14,8,High,Completed,
+876,Brittany,IT,2025-01-25,8,Medium,Dropped,Health
+877,Paige,Data Science,2025-05-22,4,High,Dropped,Workload
+878,Jennifer,IT,2024-12-29,12,Low,Completed,
+879,Eddie,Data Science,2025-02-02,16,Low,Completed,
+880,Christina,IT,2024-12-03,16,High,Completed,
+881,Brian,Data Science,2025-08-17,4,Low,Completed,
+882,Wayne,Marketing,2025-03-30,16,Low,Dropped,Health
+883,Stephanie,Operations,2024-12-03,8,Medium,Completed,
+884,Colleen,Operations,2025-03-25,8,High,Completed,
+885,Janet,Data Science,2025-07-14,8,High,Completed,
+886,Debbie,Marketing,2025-06-19,12,High,Completed,
+887,Tyler,HR,2025-01-07,12,Medium,Completed,
+888,Tiffany,Data Science,2025-03-29,8,Medium,Completed,
+889,Ethan,HR,2025-05-29,4,High,Completed,
+890,Taylor,Marketing,2025-04-26,4,High,Completed,
+891,Bryan,Marketing,2025-01-12,16,Medium,Completed,
+892,Shane,HR,2025-04-17,16,High,Completed,
+893,Tonya,IT,2025-05-12,8,Low,Dropped,Personal
+894,Cheyenne,Finance,2025-06-28,8,High,Completed,
+895,Michael,HR,2024-12-16,12,High,Dropped,Other
+896,Robert,Marketing,2025-03-19,4,Low,Completed,
+897,Charles,IT,2025-01-20,12,High,Completed,
+898,David,HR,2024-09-19,12,Medium,Completed,
+899,Sean,Finance,2025-08-11,16,Low,Dropped,Personal
+900,Donald,Finance,2025-07-19,12,Medium,Dropped,Workload
+901,Kaylee,HR,2025-01-01,4,Low,Completed,
+902,Catherine,Data Science,2025-04-29,4,High,Completed,
+903,Jennifer,Finance,2025-08-01,4,Low,Completed,
+904,Heather,Marketing,2025-07-22,8,Low,Completed,
+905,Janet,HR,2024-10-15,8,Medium,Completed,
+906,David,Finance,2025-08-08,4,Medium,Dropped,Other
+907,Brian,IT,2025-08-16,4,Medium,Completed,
+908,Joshua,IT,2025-02-11,4,Medium,Completed,
+909,Norma,Marketing,2024-11-18,8,Medium,Completed,
+910,Michael,Operations,2025-03-18,8,High,Completed,
+911,Johnathan,HR,2024-09-20,16,High,Completed,
+912,Charles,Operations,2024-11-20,16,Medium,Completed,
+913,Dana,Data Science,2025-08-07,8,Low,Completed,
+914,Kristin,Operations,2024-09-27,12,High,Dropped,Health
+915,Kevin,Marketing,2025-08-09,8,Low,Completed,
+916,Laurie,Finance,2025-06-11,4,Low,Completed,
+917,Erin,IT,2025-02-24,16,High,Dropped,Health
+918,Michael,Data Science,2025-01-13,16,Low,Dropped,Health
+919,Melissa,IT,2025-07-01,16,High,Dropped,Health
+920,Charles,HR,2025-06-20,4,Low,Completed,
+921,Paige,Operations,2025-07-02,4,High,Completed,
+922,Jessica,Marketing,2025-02-21,8,Medium,Completed,
+923,Mark,Finance,2025-03-28,16,Low,Completed,
+924,Michael,Data Science,2024-11-10,4,High,Completed,
+925,Steven,Operations,2024-12-14,4,Medium,Completed,
+926,Douglas,Data Science,2025-01-26,4,High,Dropped,Workload
+927,Arthur,IT,2025-04-23,12,Medium,Completed,
+928,Christine,IT,2024-09-25,12,Low,Completed,
+929,Emily,Operations,2025-07-08,4,High,Completed,
+930,Gwendolyn,Finance,2025-05-26,16,High,Dropped,Personal
+931,Jacob,Finance,2025-05-12,12,High,Dropped,Health
+932,Jennifer,Finance,2024-11-26,4,Low,Completed,
+933,Amanda,Finance,2025-02-27,4,High,Dropped,Workload
+934,Kevin,Finance,2025-08-10,4,High,Dropped,Health
+935,Kiara,Finance,2025-03-12,16,Medium,Completed,
+936,Susan,Marketing,2025-05-14,16,High,Dropped,Other
+937,Richard,HR,2025-01-23,12,Low,Completed,
+938,Ashley,Data Science,2025-07-02,12,High,Dropped,Workload
+939,Michelle,HR,2024-12-14,12,High,Completed,
+940,Angela,HR,2025-02-04,16,High,Completed,
+941,Sharon,HR,2024-12-14,16,Medium,Completed,
+942,Sharon,Data Science,2025-03-31,8,Low,Completed,
+943,Howard,Finance,2024-11-04,16,Low,Dropped,Personal
+944,Bernard,HR,2025-05-07,4,High,Completed,
+945,Tara,Operations,2025-06-18,12,High,Completed,
+946,Samantha,Finance,2025-09-04,12,High,Completed,
+947,Jesse,Operations,2024-11-22,4,High,Completed,
+948,Erin,HR,2024-10-07,4,High,Dropped,Workload
+949,Wesley,IT,2025-05-20,4,High,Completed,
+950,Mitchell,Marketing,2025-04-04,16,High,Completed,
+951,Oscar,Marketing,2025-02-06,12,High,Dropped,Workload
+952,Rebecca,HR,2024-12-31,8,Low,Completed,
+953,Frank,Data Science,2024-10-12,4,Low,Dropped,Workload
+954,Erica,Marketing,2024-09-27,4,Low,Completed,
+955,Robert,IT,2024-11-01,8,Medium,Dropped,Health
+956,Glen,HR,2025-01-24,8,High,Dropped,Personal
+957,Sharon,Data Science,2025-05-28,12,High,Completed,
+958,Morgan,Finance,2025-06-03,4,Medium,Completed,
+959,Lindsey,IT,2025-05-12,8,Low,Completed,
+960,Olivia,IT,2025-05-21,12,High,Dropped,Workload
+961,Justin,Marketing,2025-06-21,8,High,Completed,
+962,Michael,Finance,2024-10-19,16,Medium,Completed,
+963,Alicia,Data Science,2025-06-26,4,High,Completed,
+964,Benjamin,Finance,2024-11-21,12,Medium,Dropped,Workload
+965,Joshua,Finance,2025-03-06,4,Low,Completed,
+966,Michelle,Marketing,2024-09-26,8,Medium,Completed,
+967,Michael,Operations,2025-02-15,12,Low,Completed,
+968,Kathryn,Data Science,2025-02-17,8,High,Dropped,Workload
+969,Robert,Operations,2024-09-21,4,Low,Completed,
+970,Katrina,Marketing,2024-10-14,16,High,Completed,
+971,Christopher,Marketing,2025-05-30,16,High,Completed,
+972,Paul,IT,2024-10-13,12,Medium,Completed,
+973,Jessica,HR,2025-03-07,16,High,Completed,
+974,Rachel,Marketing,2024-10-02,8,Low,Completed,
+975,Jeffrey,Marketing,2024-12-14,8,Medium,Completed,
+976,Margaret,HR,2025-08-18,4,Medium,Completed,
+977,Tiffany,Finance,2025-02-13,8,High,Completed,
+978,Brandon,Operations,2025-08-08,4,High,Completed,
+979,Aaron,Marketing,2024-10-12,12,Medium,Dropped,Health
+980,William,Finance,2025-02-12,4,Low,Completed,
+981,Tracy,Marketing,2024-09-21,8,High,Completed,
+982,Randall,IT,2025-02-27,8,Medium,Dropped,Personal
+983,Regina,IT,2025-02-18,16,Low,Completed,
+984,Joshua,Finance,2025-04-15,12,High,Dropped,Health
+985,Casey,HR,2025-06-08,4,High,Completed,
+986,Leah,IT,2025-07-29,12,Medium,Completed,
+987,Cheryl,Marketing,2025-05-04,12,High,Dropped,Other
+988,Paul,HR,2025-09-03,4,Medium,Completed,
+989,Jeremy,HR,2025-06-09,12,Medium,Completed,
+990,Dustin,Marketing,2024-11-20,8,High,Completed,
+991,Autumn,Operations,2025-07-22,12,High,Completed,
+992,Chad,Data Science,2025-05-11,12,Low,Completed,
+993,Cheyenne,Data Science,2025-08-09,16,Low,Dropped,Other
+994,Rhonda,Data Science,2025-07-21,8,High,Dropped,Workload
+995,Erica,Marketing,2025-06-03,16,High,Completed,
+996,Curtis,HR,2025-03-19,12,High,Completed,
+997,Christine,Marketing,2025-03-02,16,High,Completed,
+998,Diana,Marketing,2025-03-13,4,Medium,Completed,
+999,Glenn,Marketing,2025-07-21,12,Low,Completed,
+1000,Andres,Data Science,2025-08-31,4,High,Dropped,Health
