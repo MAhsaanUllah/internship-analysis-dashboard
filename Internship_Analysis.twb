@@ -1,0 +1,2406 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='Book1_17582024014790' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='internship_data_cleaned' inline='true' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='internship_data_cleaned' name='textscan.1naevlb02u78a411e0ug40bbvmhn'>
+            <connection class='textscan' directory='C:/Users/Ahsaan Mughal/Desktop/internship-dashboard-analysis/data/cleaned data' filename='internship_data_cleaned.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1naevlb02u78a411e0ug40bbvmhn' name='internship_data_cleaned.csv' table='[internship_data_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='intern_id' ordinal='0' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='department' ordinal='2' />
+            <column datatype='date' name='enrollment_date' ordinal='3' />
+            <column datatype='integer' name='duration_weeks' ordinal='4' />
+            <column datatype='string' name='mentor_interaction' ordinal='5' />
+            <column datatype='string' name='completion_status' ordinal='6' />
+            <column datatype='string' name='dropout_reason' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>intern_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[intern_id]</local-name>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias>intern_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[department]</local-name>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias>department</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>enrollment_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[enrollment_date]</local-name>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias>enrollment_date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration_weeks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[duration_weeks]</local-name>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias>duration_weeks</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mentor_interaction</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mentor_interaction]</local-name>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias>mentor_interaction</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>completion_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[completion_status]</local-name>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias>completion_status</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dropout_reason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dropout_reason]</local-name>
+            <parent-name>[internship_data_cleaned.csv]</parent-name>
+            <remote-alias>dropout_reason</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Dropouts' datatype='integer' name='[Calculation_460774589624852480]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM( IF [completion_status] = &quot;Dropped&quot; THEN 1 ELSE 0 END )' />
+      </column>
+      <column caption='Mentor Interaction Rate' datatype='real' name='[Calculation_460774589628469249]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM( IF [mentor_interaction] = &quot;High&quot; THEN 1 ELSE 0 END )&#13;&#10;/ COUNT([intern_id])' />
+      </column>
+      <column caption='CompletionFlag' datatype='integer' name='[Calculation_732679417648267264]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [completion_status] = &quot;Completed&quot; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Completion Rate' datatype='real' default-format='p0.0%' name='[Calculation_944630074587942912]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM( IF [completion_status] = &quot;Completed&quot; THEN 1 ELSE 0 END )&#13;&#10;/ COUNT([intern_id])' />
+      </column>
+      <column caption='internship_data_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]' role='measure' type='quantitative' />
+      <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+      <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+      <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+      <column caption='Duration Weeks' datatype='integer' name='[duration_weeks]' role='measure' type='quantitative' />
+      <column caption='Enrollment Date' datatype='date' name='[enrollment_date]' role='dimension' type='ordinal' />
+      <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+      <column caption='Mentor Interaction' datatype='string' name='[mentor_interaction]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column-instance column='[completion_status]' derivation='None' name='[none:completion_status:nk]' pivot='key' type='nominal' />
+      <column-instance column='[dropout_reason]' derivation='None' name='[none:dropout_reason:nk]' pivot='key' type='nominal' />
+      <column-instance column='[duration_weeks]' derivation='None' name='[none:duration_weeks:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[mentor_interaction]' derivation='None' name='[none:mentor_interaction:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Department)' hidden='true' name='[Action (Department)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[department]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Department,Dropout Reason)' hidden='true' name='[Action (Department,Dropout Reason)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[department]' />
+          <groupfilter function='level-members' level='[dropout_reason]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Dropout Reason)' hidden='true' name='[Action (Dropout Reason)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[dropout_reason]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Duration Weeks)' hidden='true' name='[Action (Duration Weeks)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:duration_weeks:ok]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='D:/temp/TableauTemp/#TableauTemp_197r0s01h8h9vt1c7i4p01qw0rvr.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/14/2025 08:28:00 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>intern_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[intern_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>intern_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>internship_data_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>internship_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>356</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>department</remote-alias>
+              <ordinal>2</ordinal>
+              <family>internship_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>enrollment_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[enrollment_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>enrollment_date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>internship_data_cleaned.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>340</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>duration_weeks</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[duration_weeks]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>duration_weeks</remote-alias>
+              <ordinal>4</ordinal>
+              <family>internship_data_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mentor_interaction</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[mentor_interaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mentor_interaction</remote-alias>
+              <ordinal>5</ordinal>
+              <family>internship_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>completion_status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[completion_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>completion_status</remote-alias>
+              <ordinal>6</ordinal>
+              <family>internship_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dropout_reason</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dropout_reason]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dropout_reason</remote-alias>
+              <ordinal>7</ordinal>
+              <family>internship_data_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:completion_status:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Dropped&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Completed&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:mentor_interaction:nk]' type='palette'>
+            <map to='#43719f'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:dropout_reason:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Health&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Workload&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Personal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Pakistan&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='internship_data_cleaned.csv' id='internship_data_cleaned.csv_923BD472B25240B7962FE0DE25A72297'>
+            <properties context=''>
+              <relation connection='textscan.1naevlb02u78a411e0ug40bbvmhn' name='internship_data_cleaned.csv' table='[internship_data_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='intern_id' ordinal='0' />
+                  <column datatype='string' name='name' ordinal='1' />
+                  <column datatype='string' name='department' ordinal='2' />
+                  <column datatype='date' name='enrollment_date' ordinal='3' />
+                  <column datatype='integer' name='duration_weeks' ordinal='4' />
+                  <column datatype='string' name='mentor_interaction' ordinal='5' />
+                  <column datatype='string' name='completion_status' ordinal='6' />
+                  <column datatype='string' name='dropout_reason' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 2 (generated)' name='[Action2_15E63365A67B44BC865C2F7A09A3974E]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Internship Program Performance Dashboard' type='sheet' worksheet='Completion by Department' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Internship Program Performance Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_DD81CD92E6734B8CA24FA1231E2D3B94]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Internship Program Performance Dashboard' type='sheet' worksheet='Completion by Duration' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Internship Program Performance Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_3256B5F8218047968E00740792534DAB]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Internship Program Performance Dashboard' type='sheet' worksheet='Overall Dropout Reasons' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Internship Program Performance Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated)' name='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Internship Program Performance Dashboard' type='sheet' worksheet='Dropout Reason by Department' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Internship Program Performance Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Duration (weeks)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='10'>AVG(duration_weeks)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column-instance column='[duration_weeks]' derivation='Avg' name='[avg:duration_weeks:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Duration Weeks' datatype='integer' name='[duration_weeks]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[avg:duration_weeks:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[avg:duration_weeks:qk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[avg:duration_weeks:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='36'><![CDATA[<[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[avg:duration_weeks:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BE12CB8E-81BC-4EAE-BB2E-3F1AEC37C97F}' />
+    </worksheet>
+    <worksheet name='Completion Rate (%)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column caption='Completion Rate' datatype='real' default-format='p0.0%' name='[Calculation_944630074587942912]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM( IF [completion_status] = &quot;Completed&quot; THEN 1 ELSE 0 END )&#13;&#10;/ COUNT([intern_id])' />
+            </column>
+            <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_944630074587942912]' derivation='User' name='[usr:Calculation_944630074587942912:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-size' value='8' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='background-color' data-class='subtotal' value='#000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='36'>&lt;</run>
+                <run bold='true' fontsize='36'>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]</run>
+                <run bold='true' fontsize='36'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='0.62569057941436768' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0C403273-3DF6-49D9-93FC-8E5BC4862459}' />
+    </worksheet>
+    <worksheet name='Completion by Department'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='10'>Completion by Department</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column caption='Completion Rate' datatype='real' default-format='p0.0%' name='[Calculation_944630074587942912]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM( IF [completion_status] = &quot;Completed&quot; THEN 1 ELSE 0 END )&#13;&#10;/ COUNT([intern_id])' />
+            </column>
+            <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+            <column-instance column='[intern_id]' derivation='CountD' name='[ctd:intern_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_944630074587942912]' derivation='User' name='[usr:Calculation_944630074587942912:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:department:nk]'>
+            <groupfilter function='level-members' level='[none:department:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' included-values='in-range'>
+            <min>0.7142857142857143</min>
+            <max>0.77840909090909083</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:department:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:department:nk]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' scope='cols' value='Intern Id' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='19' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' value='' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' max='0.778409091' min='0.71428571399999996' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:department:nk]</rows>
+        <cols>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]</cols>
+      </table>
+      <simple-id uuid='{B63A1A31-37F6-458B-85B5-5601E42E66E1}' />
+    </worksheet>
+    <worksheet name='Completion by Duration'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Completion by Duration</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+            <column-instance column='[intern_id]' derivation='CountD' name='[ctd:intern_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Duration Weeks' datatype='integer' name='[duration_weeks]' role='measure' type='quantitative' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+            <column-instance column='[completion_status]' derivation='None' name='[none:completion_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[duration_weeks]' derivation='None' name='[none:duration_weeks:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]'>
+            <groupfilter function='member' level='[none:completion_status:nk]' member='&quot;Completed&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:duration_weeks:qk]' included-values='in-range'>
+            <min>4</min>
+            <max>15</max>
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:duration_weeks:qk]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' scope='rows' value='Completed Interns' />
+            <format attr='title' class='0' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:duration_weeks:qk]' scope='cols' value='Duration (Weeks)' />
+            <format attr='height' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:duration_weeks:qk]' value='56' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' scope='rows' value='true' />
+            <format attr='subtitle' class='0' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' scope='rows' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]</rows>
+        <cols>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:duration_weeks:qk]</cols>
+      </table>
+      <simple-id uuid='{10327875-2831-4968-9310-3C564352461F}' />
+    </worksheet>
+    <worksheet name='Completion by Mentor Interaction'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column-instance column='[intern_id]' derivation='CountD' name='[ctd:intern_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+            <column caption='Mentor Interaction' datatype='string' name='[mentor_interaction]' role='dimension' type='nominal' />
+            <column-instance column='[mentor_interaction]' derivation='None' name='[none:mentor_interaction:nk]' pivot='key' type='nominal' />
+            <column-instance column='[intern_id]' derivation='CountD' name='[pcto:ctd:intern_id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:mentor_interaction:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:mentor_interaction:nk]' member='&quot;High&quot;' />
+              <groupfilter function='member' level='[none:mentor_interaction:nk]' member='&quot;Low&quot;' />
+              <groupfilter function='member' level='[none:mentor_interaction:nk]' member='&quot;Medium&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:mentor_interaction:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:mentor_interaction:nk]' />
+              <wedge-size column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[pcto:ctd:intern_id:qk]' />
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' />
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:mentor_interaction:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]</run>
+                <run>&gt;</run>
+                <run>Æ&#10;</run>
+                <run><![CDATA[<[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:mentor_interaction:nk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DDBE5F7E-8D1A-4E97-8382-B89FEBDE707E}' />
+    </worksheet>
+    <worksheet name='Dropout Reason by Department'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+            <column-instance column='[intern_id]' derivation='CountD' name='[ctd:intern_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+            <column-instance column='[completion_status]' derivation='None' name='[none:completion_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[dropout_reason]' derivation='None' name='[none:dropout_reason:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]'>
+            <groupfilter function='level-members' level='[none:completion_status:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <alphabetic-sort column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:department:nk]' direction='ASC' />
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' scope='cols' value='Dropout Count' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='19' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:department:nk]</rows>
+        <cols>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]</cols>
+      </table>
+      <simple-id uuid='{6CA1FACD-2108-4830-9635-49336534BA9D}' />
+    </worksheet>
+    <worksheet name='Dropout by Department'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='10'>Dropouts by Department</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+            <column-instance column='[intern_id]' derivation='CountD' name='[ctd:intern_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+            <column-instance column='[completion_status]' derivation='None' name='[none:completion_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]'>
+            <groupfilter function='member' level='[none:completion_status:nk]' member='&quot;Dropped&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' scope='cols' value='Dropout Count' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:department:nk]</rows>
+        <cols>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]</cols>
+      </table>
+      <simple-id uuid='{687AFB65-01B6-425B-A18F-4F5AC4A1B47A}' />
+    </worksheet>
+    <worksheet name='Mentor Interaction Rate (%)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='10'>Mentor Interaction Rate (%)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column caption='Mentor Interaction Rate' datatype='real' name='[Calculation_460774589628469249]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM( IF [mentor_interaction] = &quot;High&quot; THEN 1 ELSE 0 END )&#13;&#10;/ COUNT([intern_id])' />
+            </column>
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+            <column caption='Mentor Interaction' datatype='string' name='[mentor_interaction]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_460774589628469249]' derivation='User' name='[usr:Calculation_460774589628469249:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_460774589628469249:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='dark' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_460774589628469249:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='36'>&lt;</run>
+                <run bold='true' fontsize='36'>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_460774589628469249:qk]</run>
+                <run bold='true' fontsize='36'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FA966CC3-CABD-4FF6-9D94-63BF21D7E546}' />
+    </worksheet>
+    <worksheet name='Overall Dropout Reasons'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+            <column-instance column='[intern_id]' derivation='CountD' name='[ctd:intern_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+            <column-instance column='[completion_status]' derivation='None' name='[none:completion_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[dropout_reason]' derivation='None' name='[none:dropout_reason:nk]' pivot='key' type='nominal' />
+            <column-instance column='[intern_id]' derivation='CountD' name='[pcto:ctd:intern_id:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]'>
+            <groupfilter function='member' level='[none:completion_status:nk]' member='&quot;Dropped&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]'>
+            <groupfilter function='level-members' level='[none:dropout_reason:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' />
+              <wedge-size column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' />
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[pcto:ctd:intern_id:qk]' />
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run><![CDATA[<[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[pcto:ctd:intern_id:qk]>]]></run>
+                <run>&#10;&lt;</run>
+                <run>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{49056A6D-E1D8-426B-9285-0C0744AEEEAD}' />
+    </worksheet>
+    <worksheet name='Total Dropouts'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='10'>Total Dropouts</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column caption='Total Dropouts' datatype='integer' name='[Calculation_460774589624852480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM( IF [completion_status] = &quot;Dropped&quot; THEN 1 ELSE 0 END )' />
+            </column>
+            <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_460774589624852480]' derivation='User' name='[usr:Calculation_460774589624852480:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_460774589624852480:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='36'>&lt;</run>
+                <run bold='true' fontsize='36'>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_460774589624852480:qk]</run>
+                <run bold='true' fontsize='36'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{92DB37ED-F15C-4F8E-AC6B-F2D51AD839C2}' />
+    </worksheet>
+    <worksheet name='Total Interns'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Total Interns</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+            <column-instance column='[intern_id]' derivation='CountD' name='[ctd:intern_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+            <column caption='Intern Id' datatype='integer' name='[intern_id]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]'>
+            <groupfilter function='level-members' level='[department]' user:ui-action-filter='[Action2_15E63365A67B44BC865C2F7A09A3974E]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action5_05F5EE68F01F44A9B0B80BCD8D967745]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[department]' />
+              <groupfilter function='level-members' level='[dropout_reason]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]'>
+            <groupfilter function='level-members' level='[dropout_reason]' user:ui-action-filter='[Action4_3256B5F8218047968E00740792534DAB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Dropout Reason)]</column>
+            <column>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department,Dropout Reason)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='65' />
+            <format attr='border-width' scope='cols' value='0' />
+            <format attr='border-style' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='background-color' data-class='subtotal' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#333333' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='36'>&lt;</run>
+                <run bold='true' fontsize='36'>[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[ctd:intern_id:qk]</run>
+                <run bold='true' fontsize='36'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3F2DA0A8-6D75-4CC3-8C43-0CC829F642B2}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Internship Program Performance Dashboard'>
+      <style />
+      <size maxheight='1080' maxwidth='1920' sizing-mode='range' />
+      <datasources>
+        <datasource caption='internship_data_cleaned' name='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0jsalxg0ufvs1k1ah0mqy00uw3dp'>
+        <column caption='Completion Rate' datatype='real' default-format='p0.0%' name='[Calculation_944630074587942912]' role='measure' type='quantitative'>
+          <calculation class='tableau' formula='SUM( IF [completion_status] = &quot;Completed&quot; THEN 1 ELSE 0 END )&#13;&#10;/ COUNT([intern_id])' />
+        </column>
+        <column caption='Completion Status' datatype='string' name='[completion_status]' role='dimension' type='nominal' />
+        <column caption='Dropout Reason' datatype='string' name='[dropout_reason]' role='dimension' type='nominal' />
+        <column caption='Duration Weeks' datatype='integer' name='[duration_weeks]' role='measure' type='quantitative' />
+        <column-instance column='[completion_status]' derivation='None' name='[none:completion_status:nk]' pivot='key' type='nominal' />
+        <column-instance column='[dropout_reason]' derivation='None' name='[none:dropout_reason:nk]' pivot='key' type='nominal' />
+        <column-instance column='[duration_weeks]' derivation='None' name='[none:duration_weeks:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Calculation_944630074587942912]' derivation='User' name='[usr:Calculation_944630074587942912:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='56445' id='14' param='horz' type-v2='layout-flow' w='86149' x='12032' y='3805'>
+            <zone h='56445' id='12' type-v2='layout-basic' w='86149' x='12032' y='3805'>
+              <zone h='21177' id='33' is-fixed='true' type-v2='layout-basic' w='86149' x='12032' y='3805'>
+                <zone h='21177' id='3' param='horz' type-v2='layout-flow' w='37021' x='12032' y='3805'>
+                  <zone fixed-size='242' h='21177' id='5' is-fixed='true' name='Total Interns' w='18510' x='12032' y='3805'>
+                    <layout-cache fixed-size-h='99' type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='10' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='242' h='21177' id='6' is-fixed='true' name='Completion Rate (%)' w='18511' x='30542' y='3805'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='10' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='21177' id='34' param='horz' type-v2='layout-flow' w='49128' x='49053' y='3805'>
+                  <zone fixed-size='242' h='21177' id='7' is-fixed='true' name='Total Dropouts' w='17464' x='49053' y='3805'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='10' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='242' h='21177' id='8' is-fixed='true' name='Average Duration (weeks)' w='17464' x='66517' y='3805'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='10' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='144' h='21177' id='9' is-fixed='true' name='Mentor Interaction Rate (%)' w='14200' x='83981' y='3805'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='10' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='35268' id='10' param='horz' type-v2='layout-flow' w='86149' x='12032' y='24982'>
+                <zone h='35268' id='16' param='horz' type-v2='layout-flow' w='86149' x='12032' y='24982'>
+                  <zone h='35268' id='11' name='Completion by Department' w='30390' x='12032' y='24982'>
+                    <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='10' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                  <zone h='35268' id='17' name='Completion by Duration' w='28572' x='42422' y='24982'>
+                    <layout-cache minwidth='159' type-h='fixed' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='10' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='294' h='35268' id='18' is-fixed='true' name='Dropout by Department' w='27187' x='70994' y='24982'>
+                    <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='10' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='35945' id='29' is-fixed='true' type-v2='layout-basic' w='86149' x='12032' y='60250'>
+            <zone h='35945' id='19' param='horz' type-v2='layout-flow' w='52241' x='12032' y='60250'>
+              <zone fixed-size='724' h='35945' id='20' is-fixed='true' name='Dropout Reason by Department' w='52241' x='12032' y='60250'>
+                <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='10' />
+                  <format attr='background-color' value='#ffffff' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone h='35945' id='31' is-fixed='true' type-v2='layout-basic' w='33908' x='64273' y='60250'>
+              <zone h='35945' id='32' param='horz' type-v2='layout-flow' w='33908' x='64273' y='60250'>
+                <zone h='35945' id='22' name='Overall Dropout Reasons' w='23172' x='64273' y='60250'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='10' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='104' h='35945' id='21' is-fixed='true' name='Dropout Reason by Department' pane-specification-id='0' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' type-v2='color' w='10736' x='87445' y='60250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='10' />
+                    <format attr='padding' value='5' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='92390' id='35' param='vert' type-v2='layout-flow' w='10213' x='1819' y='3805'>
+            <zone h='11594' id='23' mode='dropdown' name='Dropout Reason by Department' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]' type-v2='filter' values='database' w='10039' x='1906' y='3986'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='10' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='61' h='12500' id='25' is-fixed='true' name='Completion by Department' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' type-v2='filter' values='database' w='10039' x='1906' y='15580'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='58' h='11956' id='26' is-fixed='true' name='Completion by Duration' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:duration_weeks:qk]' type-v2='filter' values='database' w='10039' x='1906' y='28080'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='79' h='15761' id='27' is-fixed='true' mode='dropdown' name='Dropout by Department' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]' type-v2='filter' values='database' w='10039' x='1906' y='40036'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='71' h='14311' id='28' is-fixed='true' mode='dropdown' name='Overall Dropout Reasons' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' type-v2='filter' values='relevant' w='10039' x='1906' y='55797'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='100' h='21739' id='15' is-fixed='true' name='Completion by Department' pane-specification-id='0' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' type-v2='color' w='10039' x='1906' y='70108'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='10' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='1' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='margin' value='10' />
+            <format attr='padding' value='10' />
+            <format attr='background-color' value='#dfedeb' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='3000' minheight='3000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97102' id='38' param='vert' type-v2='layout-flow' w='98614' x='693' y='1449'>
+                <zone fixed-size='207' h='21177' id='5' is-fixed='true' name='Total Interns' w='18510' x='12032' y='3805'>
+                  <layout-cache fixed-size-h='99' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='207' h='21177' id='6' is-fixed='true' name='Completion Rate (%)' w='18511' x='30542' y='3805'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='207' h='21177' id='7' is-fixed='true' name='Total Dropouts' w='17464' x='49053' y='3805'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='207' h='21177' id='8' is-fixed='true' name='Average Duration (weeks)' w='17464' x='66517' y='3805'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='207' h='21177' id='9' is-fixed='true' name='Mentor Interaction Rate (%)' w='14200' x='83981' y='3805'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='61' h='12500' id='25' name='Completion by Department' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' type-v2='filter' values='database' w='10039' x='1906' y='15580'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35268' id='11' is-fixed='true' name='Completion by Department' w='30390' x='12032' y='24982'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='100' h='21739' id='15' name='Completion by Department' pane-specification-id='0' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' type-v2='color' w='10039' x='1906' y='70108'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='58' h='11956' id='26' name='Completion by Duration' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:duration_weeks:qk]' type-v2='filter' values='database' w='10039' x='1906' y='28080'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35268' id='17' is-fixed='true' name='Completion by Duration' w='28572' x='42422' y='24982'>
+                  <layout-cache minwidth='159' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='79' h='15761' id='27' mode='dropdown' name='Dropout by Department' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[Action (Department)]' type-v2='filter' values='database' w='10039' x='1906' y='40036'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35268' id='18' is-fixed='true' name='Dropout by Department' w='27187' x='70994' y='24982'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone h='11594' id='23' mode='dropdown' name='Dropout Reason by Department' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]' type-v2='filter' values='database' w='10039' x='1906' y='3986'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35945' id='20' is-fixed='true' name='Dropout Reason by Department' w='52241' x='12032' y='60250'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='104' h='35945' id='21' name='Dropout Reason by Department' pane-specification-id='0' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' type-v2='color' w='10736' x='87445' y='60250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='71' h='14311' id='28' mode='dropdown' name='Overall Dropout Reasons' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' type-v2='filter' values='relevant' w='10039' x='1906' y='55797'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35945' id='22' is-fixed='true' name='Overall Dropout Reasons' w='23172' x='64273' y='60250'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='1' />
+                <format attr='margin' value='10' />
+                <format attr='padding' value='10' />
+                <format attr='background-color' value='#dfedeb' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F52673F6-1221-423A-A813-AF993E14B0C3}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total Interns'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{36A1C513-82C8-428A-9BF6-45CEE0834A05}' />
+    </window>
+    <window class='worksheet' name='Completion Rate (%)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B63EBB60-DD3C-481C-8FE5-F76D5C3A7FFB}' />
+    </window>
+    <window class='worksheet' name='Total Dropouts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C5BC11BB-07D1-471E-BA32-DD5EEEAED2AA}' />
+    </window>
+    <window class='worksheet' name='Average Duration (weeks)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AB1439D9-5408-4110-BE88-C2358B1AD8C2}' />
+    </window>
+    <window class='worksheet' name='Mentor Interaction Rate (%)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{85E6CAFA-9C7C-450D-AAE4-E891D02C079C}' />
+    </window>
+    <window class='worksheet' name='Completion by Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:department:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[usr:Calculation_944630074587942912:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DD7F4C46-6A30-4139-8B5C-880BF8444655}' />
+    </window>
+    <window class='worksheet' name='Completion by Mentor Interaction'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:mentor_interaction:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:mentor_interaction:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{80F8AE1B-40DC-467E-8C0C-FF97EF6E3267}' />
+    </window>
+    <window class='worksheet' name='Completion by Duration'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BC25FA45-F390-4524-AEAB-51A35F0D45C3}' />
+    </window>
+    <window class='worksheet' name='Dropout by Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FEC3A0CE-3E80-4879-9FF4-A8A902B099B3}' />
+    </window>
+    <window class='worksheet' name='Dropout Reason by Department'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5ED30908-81F6-4BB2-8C9C-AF6E00C89FB5}' />
+    </window>
+    <window class='worksheet' name='Overall Dropout Reasons'>
+      <cards>
+        <edge name='left'>
+          <strip size='192'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:completion_status:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0jsalxg0ufvs1k1ah0mqy00uw3dp].[none:dropout_reason:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AAA21062-9094-4019-8C68-A922AB23037C}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Internship Program Performance Dashboard'>
+      <viewpoints>
+        <viewpoint name='Average Duration (weeks)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Completion Rate (%)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Completion by Department'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Completion by Duration'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Dropout Reason by Department'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Dropout by Department'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Mentor Interaction Rate (%)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Overall Dropout Reasons'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Dropouts'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Interns'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{8EE183A7-F2BF-48BD-A0C0-9D1D2F756E7F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Internship Program Performance Dashboard' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
