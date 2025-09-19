@@ -39,21 +39,21 @@ Synthetic dataset of 1000 interns with:
 ## 🔹 Dashboard Screenshots
 
 ### Dashboard - Overall View
-![Dashboard 1](reports/dashboard_1.png)  
+<img src="reports/dashboard_1.png" alt="Dashboard 1" width="400"/>
 
 ### Dashboard - Filtered View (By Department)
-![Dashboard 2](reports/dashboard_2.png)  
+<img src="reports/dashboard_2.png" alt="Dashboard 2" width="400"/>
 
 ### Dashboard - Filtered View (By Mentor Interaction)
-![Dashboard 3](reports/dashboard_3.png)  
+<img src="reports/dashboard_3.png" alt="Dashboard 3" width="400"/>
 
 ---
 
 ## 🔹 Charts from Python (Colab)
 
-![Chart 1](reports/colab_chart1.png)  
-![Chart 2](reports/colab_chart2.png)  
-![Chart 3](reports/colab_chart3.png)  
+<img src="reports/colab_chart1.png" alt="Chart 1" width="400"/>
+<img src="reports/colab_chart2.png" alt="Chart 2" width="400"/>
+<img src="reports/colab_chart3.png" alt="Chart 3" width="400"/>
 
 ---
 
