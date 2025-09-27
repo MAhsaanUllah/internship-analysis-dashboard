@@ -83,3 +83,14 @@ View live dashboard on Tableau Public.
 👤 Mahsaan Ullah
 📌 Data Analysis Intern | Learning Power BI, Tableau & Python
 🔗 LinkedIn
+
+## ✨ Recruiter Note  
+
+This project demonstrates my ability to **bridge the gap between raw data and actionable insights** by combining **Python, Power BI, and Tableau**.  
+
+- ✅ Hands-on experience in **data cleaning & preprocessing** (Google Colab/Jupyter)  
+- ✅ Designed **interactive dashboards** in Power BI and Tableau to track completion & dropout trends  
+- ✅ Delivered **role-specific insights** (department, mentor impact, program duration)  
+- ✅ Focused on **storytelling with data**, making the analysis **decision-maker friendly**  
+
+📌 This work reflects skills that align with **Data Analyst and Business Intelligence roles**, where the ability to **analyze, visualize, and communicate results** is critical.  
